@@ -1,1 +1,160 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css';
+@import 'https://use.fontawesome.com/releases/v5.8.1/css/all.css';
+@import "~angular-notifier/styles";
+
+td {
+  cursor: pointer;
+}
+
+.move-right {
+  position: absolute;
+  right: 0;
+}
+
+.move-left {
+  position: absolute;
+  left: 0;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+body {
+  background-color: #F9EFDB;
+}
+
+.navbar {
+  background-color: #9DBC98;
+}
+
+.navbar .nav-link {
+  color: #638889;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #EBD9B4;
+}
+
+.navbar .nav-link.active {
+  background-color: #9DBC98;
+  color: #EBD9B4;
+}
+
+.reset-password-tab .btn-primary {
+  background-color: #638889;
+  border-color: #638889;
+}
+
+.reset-password-tab .btn-primary:hover,
+.reset-password-tab .btn-primary:focus {
+  background-color: #4a5c5c;
+  border-color: #4a5c5c;
+}
+
+.btn-info {
+  background-color: #638889;
+  border-color: #638889;
+}
+
+.btn-info:hover,
+.btn-info:focus {
+  background-color: #4a5c5c;
+  border-color: #4a5c5c;
+}
+
+.btn-primary {
+  background-color: #638889;
+  border-color: #638889;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #4a5c5c;
+  border-color: #4a5c5c;
+}
+
+
+.save-changes-btn {
+  background-color: #638889;
+  border-color: #638889;
+}
+
+.save-changes-btn:hover,
+.save-changes-btn:focus {
+  background-color: #4a5c5c;
+  border-color: #4a5c5c;
+}
+
+.modal-content {
+  background-color: #EBD9B4;
+  border: 1px solid #EBD9B4;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #EBD9B4;
+}
+
+.modal-footer .btn-info {
+  background-color: #638889;
+  border-color: #638889;
+}
+
+.modal-footer .btn-info:hover,
+.modal-footer .btn-info:focus {
+  background-color: #4a5c5c;
+  border-color: #4a5c5c;
+}
+
+/* Style for the profile modal card background color */
+.card {
+  background-color: #EBD9B4; /* Background color matching the navbar color */
+  border: 1px solid #EBD9B4; /* Optional: Match the border color with the background color */
+}
+
+/* Style for card body to match the card background color */
+.card-body {
+  background-color: #EBD9B4; /* Ensure card body matches the card background */
+}
+
+/* Style for buttons inside the profile modal */
+.btn-primary {
+  background-color: #638889; /* Button background color */
+  border-color: #638889; /* Button border color */
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #4a5c5c; /* Darker shade for hover/focus */
+  border-color: #4a5c5c; /* Darker shade for border on hover/focus */
+}
+
+.btn-secondary {
+  background-color: #638889; /* Background color for secondary button */
+  border-color: #638889; /* Border color for secondary button */
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #4a5c5c; /* Darker shade for hover/focus */
+  border-color: #4a5c5c; /* Darker shade for border on hover/focus */
+}
